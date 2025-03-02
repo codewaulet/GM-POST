@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gm-post"
+version = "0.1.0"
+description = ""
+authors = ["codewaulet <codewaulet@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+telethon = "^1.38.1"
+g4f = "^0.4.7.7"
+fake-useragent = "^1.5.1"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
